@@ -22,7 +22,6 @@ import java.util.Date;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-import java.util.Properties;
 import java.util.Set;
 import java.util.concurrent.TimeUnit;
 
@@ -67,7 +66,6 @@ public class CommonFunctions extends ReadWrite {
 
 	public static WebDriver driver;
 	public static Wait<WebDriver> wait;
-	public static Properties CONFIG = null;
 	public static String Output_Folder_Name = null;
 	public static boolean verifyStatus = true;
 	public static boolean verifyStatusFalse = false;
@@ -109,12 +107,7 @@ public class CommonFunctions extends ReadWrite {
 	public boolean status_Flag = false;
 	public static String RESULT_RUNTIME_COLUMN_NAME = "Runtime Result on";
 	protected int gridCountBefore;
-	public String extent_Report_Location = "D:\\bddrunner by zaheer";
 	public String workbook_Location_local = null;
-	public final String execution_Pass = "Pass";
-	public final String execution_Fail = "Fail";
-	public static String PassStatus = null;
-	public static String FailStatus = null;
 	public static JavascriptExecutor executor;
 	public static MyProperties propertiesObj = new MyProperties();
 
@@ -129,7 +122,6 @@ public class CommonFunctions extends ReadWrite {
 	public static void intiateLogger(String Loggerfile) {
 		String log4jConfigFile = System.getProperty("user.dir") + File.separator + "SIT_environment.properties";
 		PropertyConfigurator.configure(log4jConfigFile);
-		// logger = Logger.getLogger(Loggerfile);
 
 	}
 

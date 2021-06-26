@@ -3,7 +3,7 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>massmutual</groupId>
-	<artifactId>massmutual</artifactId>
+	<artifactId>massmutual1</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<!-- TEST -->
 	<dependencies>
@@ -85,11 +85,7 @@
 			<version>3.7.1</version>
 		</dependency>
 
-		<dependency>
-			<groupId>com.relevantcodes</groupId>
-			<artifactId>extentreports</artifactId>
-			<version>2.41.2</version>
-		</dependency>
+
 
 		<dependency>
 			<groupId>org.testng</groupId>
@@ -103,7 +99,7 @@
 			<artifactId>slf4j-log4j12</artifactId>
 			<version>1.7.21</version>
 		</dependency>
-	
+
 
 		<dependency>
 			<groupId>log4j</groupId>
@@ -111,22 +107,11 @@
 			<version>1.2.17</version>
 		</dependency>
 
-		<dependency>
-			<groupId>com.aventstack</groupId>
-			<artifactId>extentreports</artifactId>
-			<version>3.1.5</version>
-		</dependency>
 
 		<dependency>
 			<groupId>com.vimalselvam</groupId>
 			<artifactId>cucumber-extentsreport</artifactId>
 			<version>3.0.2</version>
-		</dependency>
-
-		<dependency>
-			<groupId>com.relevantcodes</groupId>
-			<artifactId>extentreports</artifactId>
-			<version>2.41.2</version>
 		</dependency>
 
 		<dependency>
@@ -166,46 +151,22 @@
 		</dependency>
 
 		<dependency>
-			<groupId>org.apache.poi</groupId>
-			<artifactId>poi</artifactId>
-			<version>3.16</version>
-		</dependency>
-
-		<dependency>
 			<groupId>com.googlecode.json-simple</groupId>
 			<artifactId>json-simple</artifactId>
 			<version>1.1.1</version>
 		</dependency>
 
 
-		<dependency>
-			<groupId>org.apache.poi</groupId>
-			<artifactId>poi-ooxml</artifactId>
-			<version>3.16</version>
-			<exclusions>
-				<exclusion>
-					<artifactId>xml-apis</artifactId>
-					<groupId>xml-apis</groupId>
-				</exclusion>
-			</exclusions>
-		</dependency>
-
-		<dependency>
-			<groupId>org.slf4j</groupId>
-			<artifactId>slf4j-log4j12</artifactId>
-			<version>1.7.21</version>
-		</dependency>
 		<!-- https://mvnrepository.com/artifact/com.github.mkolisnyk/cucumber-reports -->
 		<dependency>
 			<groupId>com.github.mkolisnyk</groupId>
 			<artifactId>cucumber-reports</artifactId>
 			<version>1.0.1</version>
 		</dependency>
-
 		<dependency>
-			<groupId>log4j</groupId>
-			<artifactId>log4j</artifactId>
-			<version>1.2.17</version>
+			<groupId>joda-time</groupId>
+			<artifactId>joda-time</artifactId>
+			<version>2.9.2</version>
 		</dependency>
 
 	</dependencies>
@@ -226,28 +187,10 @@
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-compiler-plugin</artifactId>
 				<version>3.7.0</version>
+
 				<configuration>
 					<source>1.8</source>
 					<target>1.8</target>
-				</configuration>
-			</plugin>
-			<plugin>
-				<groupId>org.codehaus.mojo</groupId>
-				<artifactId>exec-maven-plugin</artifactId>
-				<version>1.6.0</version>
-				<executions>
-					<execution>
-						<goals>
-							<goal>exec</goal>
-						</goals>
-					</execution>
-				</executions>
-				<configuration>
-					<mainClass>ReportMerger</mainClass>
-					<includePluginDependencies>true</includePluginDependencies>
-					<arguments>
-						<argument>target/cucumber-parallel</argument>
-					</arguments>
 				</configuration>
 			</plugin>
 
@@ -273,11 +216,6 @@
 							<outputDirectory>${project.build.directory}/generated-test-sources/cucumber</outputDirectory>
 							<featuresDirectory>src/test/resources/FeatureFiles</featuresDirectory>
 							<cucumberOutputDir>target/cucumber-parallel</cucumberOutputDir>
-							<plugins>
-								<plugin>
-									<name>json</name>
-								</plugin>
-							</plugins>
 							<monochrome>true</monochrome>
 							<filterFeaturesByTags>true</filterFeaturesByTags>
 
@@ -300,7 +238,7 @@
 							</glue>
 							<tags>
 
-								<tag>@testRun3</tag>
+								<tag>@Regression</tag>
 
 								<!-- <tag>${tag}</tag> -->
 
@@ -319,7 +257,6 @@
 
 				</executions>
 			</plugin>
-
 
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>

@@ -9,11 +9,6 @@ import org.junit.runner.JUnitCore;
 import org.junit.runner.Result;
 import org.junit.runner.notification.Failure;
 
-import com.aventstack.extentreports.ExtentReports;
-import com.aventstack.extentreports.ExtentTest;
-import com.aventstack.extentreports.Status;
-import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
-
 public class runner_Main_Class {
 
 	public static String log_File_Name;
@@ -26,33 +21,11 @@ public class runner_Main_Class {
 	
 	static Logger log = Logger.getLogger(runner_Main_Class.class.getName());
 	
-	public static ExtentHtmlReporter htmlReporter;
-	protected static String ExtentReportGeneration;
-	public static ExtentReports extent;
-	public static ExtentTest test, parent, child, child2;
-	protected static String htmlReportDate= LocalDateTime.now().format(DateTimeFormatter.ofPattern("dd_MMM_yyyy HH-mm-ss")).toString();
-	
 	public static void main(String[] args) {
 		
 		
 		
 		log.info("Entry point triggered. Start Cucumber trigger");
-		
-		/*
-		 * log.info("Before"); StringBuffer sb = new
-		 * StringBuffer(ExtentReportLocation()); htmlReporter = new
-		 * ExtentHtmlReporter(sb.append(htmlReportDate).append(".html").toString());
-		 * scenario_Step_Def = scenario_Before; ExtentReportGeneration = sb.toString();
-		 * log.info("HTML Report location  -  " + ExtentReportGeneration);
-		 * htmlReporter.setAppendExisting(true); extent = new ExtentReports();
-		 * 
-		 * extent.attachReporter(htmlReporter); parent =
-		 * extent.createTest(scenario_Step_Def.getName()); parent.log(Status.INFO,
-		 * "Scenario Name is " + scenario_Step_Def.getName());
-		 */
-
-		
-		
 		
 		Result resultObj = JUnitCore.runClasses(TestRunner.class);
 		for (Failure failure : resultObj.getFailures()) {
@@ -82,11 +55,6 @@ public class runner_Main_Class {
 		return executionLog;
 	}
 	
-	public static String ExtentReportLocation() {
-		log.info("Sending Extent report location");
-		StringBuffer sb=new StringBuffer(100);
-		return sb.append(System.getProperty("user.dir")).append(File.separator).append("Extent_Report_").toString();
-	}
 	
 	
 	

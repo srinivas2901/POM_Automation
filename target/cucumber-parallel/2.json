@@ -1,0 +1,84 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 34,
+        "name": "Validate the total balance matches the sum of the values and is correct based on the values listed on the screen",
+        "description": "",
+        "id": "total-balance-calculation;validate-the-total-balance-matches-the-sum-of-the-values-and-is-correct-based-on-the-values-listed-on-the-screen;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6784670200,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "the user should be able to navigate to the application",
+            "match": {
+              "location": "Login.navigateToUrl()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2462214400,
+              "error_message": "java.lang.AssertionError: The following asserts failed:\nThe total balances doesnt matches sum of the values\r\n\tat org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:37)\r\n\tat bindings.Balance.validateTheTotalBalanceValue(Balance.java:94)\r\n\tat ✽.Then Validate the total balance matches the sum of the \u00271000000.00\u0027 values in the screen(D:/EclipseWorkspace/massmutual/src/test/resources/FeatureFiles/balance.feature:30)\r\n",
+              "status": "failed"
+            },
+            "comments": [
+              {
+                "line": 26,
+                "value": "#\tAnd On Login page, enter the \u0027\u003cusername\u003e\u0027"
+              },
+              {
+                "line": 27,
+                "value": "#\tAnd On Login page, enter the \u0027\u003cpassword\u003e\u0027"
+              },
+              {
+                "line": 28,
+                "value": "#\tAnd On Login page, click on the login button"
+              },
+              {
+                "line": 29,
+                "value": "#\tAnd The user is in the values screen"
+              }
+            ],
+            "line": 30,
+            "name": "Validate the total balance matches the sum of the \u00271000000.00\u0027 values in the screen",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1000000.00",
+                  "offset": 51
+                }
+              ],
+              "location": "Balance.validateTheTotalBalanceValue(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 22,
+            "name": "@Regression"
+          },
+          {
+            "line": 22,
+            "name": "@testRun2"
+          }
+        ]
+      }
+    ],
+    "name": "Total Balance Calculation",
+    "description": "",
+    "id": "total-balance-calculation",
+    "keyword": "Feature",
+    "uri": "D:/EclipseWorkspace/massmutual/src/test/resources/FeatureFiles/balance.feature"
+  }
+]

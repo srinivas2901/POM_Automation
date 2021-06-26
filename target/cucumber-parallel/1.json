@@ -3,19 +3,19 @@
     "line": 1,
     "elements": [
       {
-        "line": 34,
-        "name": "Validate the total balance matches the sum of the values and is correct based on the values listed on the screen",
+        "line": 17,
+        "name": "Validate the right count of values appear on the screen are greater than 0 and the values are formatted as currencies",
         "description": "",
-        "id": "total-balance-calculation;validate-the-total-balance-matches-the-sum-of-the-values-and-is-correct-based-on-the-values-listed-on-the-screen;;2",
+        "id": "total-balance-calculation;validate-the-right-count-of-values-appear-on-the-screen-are-greater-than-0-and-the-values-are-formatted-as-currencies;;2",
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 5006275500,
+              "duration": 5255803600,
               "status": "passed"
             },
-            "line": 25,
+            "line": 8,
             "name": "the user should be able to navigate to the application",
             "match": {
               "location": "Login.navigateToUrl()"
@@ -24,53 +24,57 @@
           },
           {
             "result": {
-              "duration": 1801338700,
-              "error_message": "java.lang.AssertionError: The following asserts failed:\nThe total balances doesnt matches sum of the values\r\n\tat org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:37)\r\n\tat bindings.Balance.validateTheTotalBalanceValue(Balance.java:105)\r\n\tat ✽.Then Validate the total balance matches the sum of the \u00271000000.00\u0027 values in the screen(D:/EclipseWorkspace/massmutual/src/test/resources/FeatureFiles/balance.feature:30)\r\n",
-              "status": "failed"
+              "duration": 2489402700,
+              "status": "passed"
             },
             "comments": [
               {
-                "line": 26,
-                "value": "#\tAnd On Login page, enter the \u0027\u003cusername\u003e\u0027"
+                "line": 9,
+                "value": "#\tAnd On Login page, enter the username \u0027\u003cusername\u003e\u0027"
               },
               {
-                "line": 27,
-                "value": "#\tAnd On Login page, enter the \u0027\u003cpassword\u003e\u0027"
+                "line": 10,
+                "value": "#\tAnd On Login page, enter the password \u003cpassword\u003e\u0027"
               },
               {
-                "line": 28,
+                "line": 11,
                 "value": "#\tAnd On Login page, click on the login button"
               },
               {
-                "line": 29,
+                "line": 12,
                 "value": "#\tAnd The user is in the values screen"
               }
             ],
-            "line": 30,
-            "name": "Validate the total balance matches the sum of the \u00271000000.00\u0027 values in the screen",
+            "line": 13,
+            "name": "Validate the right count of values appear on the screen are greater than \u00270\u0027 and the values are formatted as \u0027$\u0027",
             "match": {
               "arguments": [
                 {
-                  "val": "1000000.00",
-                  "offset": 51
+                  "val": "0",
+                  "offset": 74
+                },
+                {
+                  "val": "$",
+                  "offset": 110
                 }
               ],
-              "location": "Balance.validateTheTotalBalanceValue(String)"
+              "location": "Balance.validateTheCountValue(String,String)"
             },
             "matchedColumns": [
-              2
+              2,
+              3
             ],
             "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "line": 22,
+            "line": 5,
             "name": "@Regression"
           },
           {
-            "line": 22,
-            "name": "@testRun3"
+            "line": 5,
+            "name": "@testRun1"
           }
         ]
       }

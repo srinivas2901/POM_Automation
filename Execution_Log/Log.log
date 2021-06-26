@@ -1,123 +1,214 @@
-26-06-2021 22:47:43 INFO  ReadWrite: 72 :- ---------------------Start reading excel
-26-06-2021 22:47:43 INFO  ReadWrite: 73 :- Workbook location is :- null
-26-06-2021 22:47:43 INFO  ReadWrite: 74 :- Worksheet name is :- Balance
-26-06-2021 22:47:43 INFO  ReadWrite: 75 :- Cell name is :- Value1
-26-06-2021 22:47:43 INFO  ReadWrite: 76 :- Calling first method is : -  sumOfValues
-26-06-2021 22:47:43 INFO  ReadWrite: 77 :- Calling first method line is : -  70
-26-06-2021 22:47:43 INFO  ReadWrite: 78 :- Calling second method is : -  validateTheTotalBalanceValue
-26-06-2021 22:47:43 INFO  ReadWrite: 79 :- Calling second method line is : -  77
-26-06-2021 22:47:45 INFO  ReadWrite: 85 :- Count of Rows: 1
-26-06-2021 22:47:45 INFO  ReadWrite: 86 :- Count of Columns: 6
-26-06-2021 22:47:45 INFO  ReadWrite: 92 :- Value1
-26-06-2021 22:47:45 INFO  ReadWrite: 96 :- Value present at column number - 0
-26-06-2021 22:47:45 INFO  ReadWrite: 100 :- true
-26-06-2021 22:47:45 INFO  ReadWrite: 107 :- STRING
-26-06-2021 22:47:45 INFO  ReadWrite: 121 :- Value found at 1 ,0 is : $122365.24
-26-06-2021 22:47:45 INFO  ReadWrite: 129 :- Implementing TRIM function to remove Leading and Trailing spaces
-26-06-2021 22:47:45 INFO  ReadWrite: 132 :- ___________________End reading excel
-26-06-2021 22:47:45 INFO  ReadWrite: 72 :- ---------------------Start reading excel
-26-06-2021 22:47:45 INFO  ReadWrite: 73 :- Workbook location is :- null
-26-06-2021 22:47:45 INFO  ReadWrite: 74 :- Worksheet name is :- Balance
-26-06-2021 22:47:45 INFO  ReadWrite: 75 :- Cell name is :- Value2
-26-06-2021 22:47:45 INFO  ReadWrite: 76 :- Calling first method is : -  sumOfValues
-26-06-2021 22:47:45 INFO  ReadWrite: 77 :- Calling first method line is : -  72
-26-06-2021 22:47:45 INFO  ReadWrite: 78 :- Calling second method is : -  validateTheTotalBalanceValue
-26-06-2021 22:47:45 INFO  ReadWrite: 79 :- Calling second method line is : -  77
-26-06-2021 22:47:45 INFO  ReadWrite: 85 :- Count of Rows: 1
-26-06-2021 22:47:45 INFO  ReadWrite: 86 :- Count of Columns: 6
-26-06-2021 22:47:45 INFO  ReadWrite: 92 :- Value1
-26-06-2021 22:47:45 INFO  ReadWrite: 92 :- Value2
-26-06-2021 22:47:45 INFO  ReadWrite: 96 :- Value present at column number - 1
-26-06-2021 22:47:45 INFO  ReadWrite: 100 :- true
-26-06-2021 22:47:45 INFO  ReadWrite: 107 :- STRING
-26-06-2021 22:47:45 INFO  ReadWrite: 121 :- Value found at 1 ,1 is : $599
-26-06-2021 22:47:45 INFO  ReadWrite: 129 :- Implementing TRIM function to remove Leading and Trailing spaces
-26-06-2021 22:47:45 INFO  ReadWrite: 132 :- ___________________End reading excel
-26-06-2021 22:47:45 INFO  ReadWrite: 72 :- ---------------------Start reading excel
-26-06-2021 22:47:45 INFO  ReadWrite: 73 :- Workbook location is :- null
-26-06-2021 22:47:45 INFO  ReadWrite: 74 :- Worksheet name is :- Balance
-26-06-2021 22:47:45 INFO  ReadWrite: 75 :- Cell name is :- Value3
-26-06-2021 22:47:45 INFO  ReadWrite: 76 :- Calling first method is : -  sumOfValues
-26-06-2021 22:47:45 INFO  ReadWrite: 77 :- Calling first method line is : -  74
-26-06-2021 22:47:45 INFO  ReadWrite: 78 :- Calling second method is : -  validateTheTotalBalanceValue
-26-06-2021 22:47:45 INFO  ReadWrite: 79 :- Calling second method line is : -  77
-26-06-2021 22:47:45 INFO  ReadWrite: 85 :- Count of Rows: 1
-26-06-2021 22:47:45 INFO  ReadWrite: 86 :- Count of Columns: 6
-26-06-2021 22:47:45 INFO  ReadWrite: 92 :- Value1
-26-06-2021 22:47:45 INFO  ReadWrite: 92 :- Value2
-26-06-2021 22:47:45 INFO  ReadWrite: 92 :- Value3
-26-06-2021 22:47:45 INFO  ReadWrite: 96 :- Value present at column number - 2
-26-06-2021 22:47:45 INFO  ReadWrite: 100 :- true
-26-06-2021 22:47:45 INFO  ReadWrite: 107 :- STRING
-26-06-2021 22:47:45 INFO  ReadWrite: 121 :- Value found at 1 ,2 is : $850139.99
-26-06-2021 22:47:45 INFO  ReadWrite: 129 :- Implementing TRIM function to remove Leading and Trailing spaces
-26-06-2021 22:47:45 INFO  ReadWrite: 132 :- ___________________End reading excel
-26-06-2021 22:47:45 INFO  ReadWrite: 72 :- ---------------------Start reading excel
-26-06-2021 22:47:45 INFO  ReadWrite: 73 :- Workbook location is :- null
-26-06-2021 22:47:45 INFO  ReadWrite: 74 :- Worksheet name is :- Balance
-26-06-2021 22:47:45 INFO  ReadWrite: 75 :- Cell name is :- Value4
-26-06-2021 22:47:45 INFO  ReadWrite: 76 :- Calling first method is : -  sumOfValues
-26-06-2021 22:47:45 INFO  ReadWrite: 77 :- Calling first method line is : -  76
-26-06-2021 22:47:45 INFO  ReadWrite: 78 :- Calling second method is : -  validateTheTotalBalanceValue
-26-06-2021 22:47:45 INFO  ReadWrite: 79 :- Calling second method line is : -  77
-26-06-2021 22:47:45 INFO  ReadWrite: 85 :- Count of Rows: 1
-26-06-2021 22:47:45 INFO  ReadWrite: 86 :- Count of Columns: 6
-26-06-2021 22:47:45 INFO  ReadWrite: 92 :- Value1
-26-06-2021 22:47:45 INFO  ReadWrite: 92 :- Value2
-26-06-2021 22:47:45 INFO  ReadWrite: 92 :- Value3
-26-06-2021 22:47:45 INFO  ReadWrite: 92 :- Value4
-26-06-2021 22:47:45 INFO  ReadWrite: 96 :- Value present at column number - 3
-26-06-2021 22:47:45 INFO  ReadWrite: 100 :- true
-26-06-2021 22:47:45 INFO  ReadWrite: 107 :- STRING
-26-06-2021 22:47:45 INFO  ReadWrite: 121 :- Value found at 1 ,3 is : $23329.5
-26-06-2021 22:47:45 INFO  ReadWrite: 129 :- Implementing TRIM function to remove Leading and Trailing spaces
-26-06-2021 22:47:45 INFO  ReadWrite: 132 :- ___________________End reading excel
-26-06-2021 22:47:45 INFO  ReadWrite: 72 :- ---------------------Start reading excel
-26-06-2021 22:47:45 INFO  ReadWrite: 73 :- Workbook location is :- null
-26-06-2021 22:47:45 INFO  ReadWrite: 74 :- Worksheet name is :- Balance
-26-06-2021 22:47:45 INFO  ReadWrite: 75 :- Cell name is :- Value5
-26-06-2021 22:47:45 INFO  ReadWrite: 76 :- Calling first method is : -  sumOfValues
-26-06-2021 22:47:45 INFO  ReadWrite: 77 :- Calling first method line is : -  78
-26-06-2021 22:47:45 INFO  ReadWrite: 78 :- Calling second method is : -  validateTheTotalBalanceValue
-26-06-2021 22:47:45 INFO  ReadWrite: 79 :- Calling second method line is : -  77
-26-06-2021 22:47:45 INFO  ReadWrite: 85 :- Count of Rows: 1
-26-06-2021 22:47:45 INFO  ReadWrite: 86 :- Count of Columns: 6
-26-06-2021 22:47:45 INFO  ReadWrite: 92 :- Value1
-26-06-2021 22:47:45 INFO  ReadWrite: 92 :- Value2
-26-06-2021 22:47:45 INFO  ReadWrite: 92 :- Value3
-26-06-2021 22:47:45 INFO  ReadWrite: 92 :- Value4
-26-06-2021 22:47:45 INFO  ReadWrite: 92 :- Value5
-26-06-2021 22:47:45 INFO  ReadWrite: 96 :- Value present at column number - 4
-26-06-2021 22:47:45 INFO  ReadWrite: 100 :- true
-26-06-2021 22:47:45 INFO  ReadWrite: 107 :- STRING
-26-06-2021 22:47:45 INFO  ReadWrite: 121 :- Value found at 1 ,4 is : $566.27
-26-06-2021 22:47:45 INFO  ReadWrite: 129 :- Implementing TRIM function to remove Leading and Trailing spaces
-26-06-2021 22:47:45 INFO  ReadWrite: 132 :- ___________________End reading excel
-26-06-2021 22:47:45 INFO  ReadWrite: 72 :- ---------------------Start reading excel
-26-06-2021 22:47:45 INFO  ReadWrite: 73 :- Workbook location is :- null
-26-06-2021 22:47:45 INFO  ReadWrite: 74 :- Worksheet name is :- Balance
-26-06-2021 22:47:45 INFO  ReadWrite: 75 :- Cell name is :- TotalBalance
-26-06-2021 22:47:45 INFO  ReadWrite: 76 :- Calling first method is : -  totalBalance
-26-06-2021 22:47:45 INFO  ReadWrite: 77 :- Calling first method line is : -  111
-26-06-2021 22:47:45 INFO  ReadWrite: 78 :- Calling second method is : -  validateTheTotalBalanceValue
-26-06-2021 22:47:45 INFO  ReadWrite: 79 :- Calling second method line is : -  78
-26-06-2021 22:47:45 INFO  ReadWrite: 85 :- Count of Rows: 1
-26-06-2021 22:47:45 INFO  ReadWrite: 86 :- Count of Columns: 6
-26-06-2021 22:47:45 INFO  ReadWrite: 92 :- Value1
-26-06-2021 22:47:45 INFO  ReadWrite: 92 :- Value2
-26-06-2021 22:47:45 INFO  ReadWrite: 92 :- Value3
-26-06-2021 22:47:45 INFO  ReadWrite: 92 :- Value4
-26-06-2021 22:47:45 INFO  ReadWrite: 92 :- Value5
-26-06-2021 22:47:45 INFO  ReadWrite: 92 :- TotalBalance
-26-06-2021 22:47:45 INFO  ReadWrite: 96 :- Value present at column number - 5
-26-06-2021 22:47:45 INFO  ReadWrite: 100 :- true
-26-06-2021 22:47:45 INFO  ReadWrite: 107 :- STRING
-26-06-2021 22:47:45 INFO  ReadWrite: 121 :- Value found at 1 ,5 is : $1000000
-26-06-2021 22:47:45 INFO  ReadWrite: 129 :- Implementing TRIM function to remove Leading and Trailing spaces
-26-06-2021 22:47:45 INFO  ReadWrite: 132 :- ___________________End reading excel
-26-06-2021 22:47:45 INFO  ReadWrite: 216 :- 
-26-06-2021 22:47:45 INFO  ReadWrite: 217 :- Balance
-26-06-2021 22:47:45 INFO  ReadWrite: 218 :- Comment2
-26-06-2021 22:47:45 INFO  ReadWrite: 219 :- The total balances doesnt matches sum of the values
-26-06-2021 22:47:45 INFO  ReadWrite: 220 :- 1
-26-06-2021 22:47:45 INFO  ReadWrite: 222 :- Data to be entered is The total balances doesnt matches sum of the values
+27-06-2021 01:02:11 INFO  ReadWrite: 72 :- ---------------------Start reading excel
+27-06-2021 01:02:11 INFO  ReadWrite: 73 :- Workbook location is :- null
+27-06-2021 01:02:11 INFO  ReadWrite: 74 :- Worksheet name is :- Balance
+27-06-2021 01:02:11 INFO  ReadWrite: 75 :- Cell name is :- Value1
+27-06-2021 01:02:11 INFO  ReadWrite: 76 :- Calling first method is : -  sumOfValues
+27-06-2021 01:02:11 INFO  ReadWrite: 77 :- Calling first method line is : -  70
+27-06-2021 01:02:11 INFO  ReadWrite: 78 :- Calling second method is : -  validateTheTotalBalanceValue
+27-06-2021 01:02:11 INFO  ReadWrite: 79 :- Calling second method line 27-06-2021 027-06-2021 01:02:13 INFO  ReadWrite: 85 :- Count of Rows: 1
+27-06-2021 01:02:13 INFO  ReadWrite: 86 :- Count of Columns: 6
+27-06-2021 01:02:13 INFO  ReadWrite: 92 :- Value1
+27-06-2021 01:02:13 INFO  ReadWrite: 96 :- Value present at column number - 0
+27-06-2021 01:02:13 INFO  ReadWrite: 100 :- true
+27-06-2021 01:02:13 INFO  ReadWrite: 107 :- STRING
+27-06-2021 01:02:13 INFO  ReadWrite: 121 :- Value found at 1 ,0 is : $122365.24
+27-06-2021 01:02:13 INFO  ReadWrite: 129 :- Implementing TRIM function to remove Leading and Trailing spaces
+27-06-2021 01:02:13 INFO  ReadWrite: 132 :- ___________________End reading excel
+27-06-2021 01:02:13 INFO  ReadWrite: 72 :- ---------------------Start reading excel
+27-06-2021 01:02:13 INFO  ReadWrite: 73 :- Workbook location is :- null
+27-06-2021 01:02:13 INFO  ReadWrite: 74 :- Worksheet name is :- Balance
+27-06-2021 01:02:13 INFO  ReadWrite: 75 :- Cell name is :- Value2
+27-06-2021 01:02:13 INFO  ReadWrite: 76 :- Calling first method is : -  sumOfValues
+27-06-2021 01:02:13 INFO  ReadWrite: 77 :- Calling first method line is : -  72
+27-06-2021 01:02:13 INFO  ReadWrite: 78 :- Calling second method is : -  validateTheTotalBalanceValue
+27-06-2021 01:02:13 INFO  ReadWrite: 79 :- Calling second method line is : -  74
+27-06-2021 01:02:13 INFO  ReadWrite: 85 :- Count of Rows: 1
+27-06-2021 01:02:13 INFO  ReadWrite: 86 :- Count of Columns: 6
+27-06-2021 01:02:13 INFO  ReadWrite: 92 :- Value1
+27-06-2021 01:02:13 INFO  ReadWrite: 92 :- Value2
+27-06-2021 01:02:13 INFO  ReadWrite: 96 :- Value present at column number - 1
+27-06-2021 01:02:13 INFO  ReadWrite: 100 :- true
+27-06-2021 01:02:13 INFO  ReadWrite: 107 :- STRING
+27-06-2021 01:02:13 INFO  ReadWrite: 121 :- Value found at 1 ,1 is : $599
+27-06-2021 01:02:13 INFO  ReadWrite: 129 :- Implementing TRIM function to remove Leading and Trailing spaces
+27-06-2021 01:02:13 INFO  ReadWrite: 132 :- ___________________End reading excel
+27-06-2021 01:02:13 INFO  ReadWrite: 72 :- ---------------------Start reading excel
+27-06-2021 01:02:13 INFO  ReadWrite: 73 :- Workbook location is :- null
+27-06-2021 01:02:13 INFO  ReadWrite: 74 :- Worksheet name is :- Balance
+27-06-2021 01:02:13 INFO  ReadWrite: 75 :- Cell name is :- Value3
+27-06-2021 01:02:13 INFO  ReadWrite: 76 :- Calling first method is : -  sumOfValues
+27-06-2021 01:02:13 INFO  ReadWrite: 77 :- Calling first method line is : -  74
+27-06-2021 01:02:13 INFO  ReadWrite: 78 :- Calling second method is : -  validateTheTotalBalanceValue
+27-06-2021 01:02:13 INFO  ReadWrite: 79 :- Calling second method line is : -  74
+27-06-2021 01:02:13 INFO  ReadWrite: 85 :- Count of Rows: 1
+27-06-2021 01:02:13 INFO  ReadWrite: 86 :- Count of Columns: 6
+27-06-2021 01:02:13 INFO  ReadWrite: 92 :- Value1
+27-06-2021 01:02:13 INFO  ReadWrite: 92 :- Value2
+27-06-2021 01:02:13 INFO  ReadWrite: 92 :- Value3
+27-06-2021 01:02:13 INFO  ReadWrite: 96 :- Value present at column number - 2
+27-06-2021 01:02:13 INFO  ReadWrite: 100 :- true
+27-06-2021 01:02:13 INFO  ReadWrite: 107 :- STRING
+27-06-2021 01:02:13 INFO  ReadWrite: 121 :- Value found at 1 ,2 is : $850139.99
+27-06-2021 01:02:13 INFO  ReadWrite: 129 :- Implementing TRIM function to remove Leading and Trailing spaces
+27-06-2021 01:02:13 INFO  ReadWrite: 132 :- ___________________End reading excel
+27-06-2021 01:02:13 INFO  ReadWrite: 72 :- ---------------------Start reading excel
+27-06-2021 01:02:13 INFO  ReadWrite: 73 :- Workbook location is :- null
+27-06-2021 01:02:13 INFO  ReadWrite: 74 :- Worksheet name is :- Balance
+27-06-2021 01:02:13 INFO  ReadWrite: 75 :- Cell name is :- Value4
+27-06-2021 01:02:13 INFO  ReadWrite: 76 :- Calling first method is : -  sumOfValues
+27-06-2021 01:02:13 INFO  ReadWrite: 77 :- Calling first method line is : -  76
+27-06-2021 01:02:13 INFO  ReadWrite: 78 :- Calling second method is : -  validateTheTotalBalanceValue
+27-06-2021 01:02:13 INFO  ReadWrite: 79 :- Calling second method line is : -  74
+27-06-2021 01:02:13 INFO  ReadWrite: 85 :- Count of Rows: 1
+27-06-2021 01:02:13 INFO  ReadWrite: 86 :- Count of Columns: 6
+27-06-2021 01:02:13 INFO  ReadWrite: 92 :- Value1
+27-06-2021 01:02:13 INFO  ReadWrite: 92 :- Value2
+27-06-2021 01:02:13 INFO  ReadWrite: 92 :- Value3
+27-06-2021 01:02:13 INFO  ReadWrite: 92 :- Value4
+27-06-2021 01:02:13 INFO  ReadWrite: 96 :- Value present at column number - 3
+27-06-2021 01:02:13 INFO  ReadWrite: 100 :- true
+27-06-2021 01:02:13 INFO  ReadWrite: 107 :- STRING
+27-06-2021 01:02:13 INFO  ReadWrite: 121 :- Value found at 1 ,3 is : $23329.5
+27-06-2021 01:02:13 INFO  ReadWrite: 129 :- Implementing TRIM function to remove Leading and Trailing spaces
+27-06-2021 01:02:13 INFO  ReadWrite: 132 :- ___________________End reading excel
+27-06-2021 01:02:13 INFO  ReadWrite: 72 :- ---------------------Start reading excel
+27-06-2021 01:02:13 INFO  ReadWrite: 73 :- Workbook location is :- null
+27-06-2021 01:02:13 INFO  ReadWrite: 74 :- Worksheet name is :- Balance
+27-06-2021 01:02:13 INFO  ReadWrite: 75 :- Cell name is :- Value5
+27-06-2021 01:02:13 INFO  ReadWrite: 76 :- Calling first method is : -  sumOfValues
+27-06-2021 01:02:13 INFO  ReadWrite: 77 :- Calling first method line is : -  78
+27-06-2021 01:02:13 INFO  ReadWrite: 78 :- Calling second method is : -  validateTheTotalBalanceValue
+27-06-2021 01:02:13 INFO  ReadWrite: 79 :- Calling second method line is : -  74
+27-06-2021 01:02:14 INFO  ReadWrite: 85 :- Count of Rows: 1
+27-06-2021 01:02:14 INFO  ReadWrite: 86 :- Count of Columns: 6
+27-06-2021 01:02:14 INFO  ReadWrite: 92 :- Value1
+27-06-2021 01:02:14 INFO  ReadWrite: 92 :- Value2
+27-06-2021 01:02:14 INFO  ReadWrite: 92 :- Value3
+27-06-2021 01:02:14 INFO  ReadWrite: 92 :- Value4
+27-06-2021 01:02:14 INFO  ReadWrite: 92 :- Value5
+27-06-2021 01:02:14 INFO  ReadWrite: 96 :- Value present at column number - 4
+27-06-2021 01:02:14 INFO  ReadWrite: 100 :- true
+27-06-2021 01:02:14 INFO  ReadWrite: 107 :- STRING
+27-06-2021 01:02:14 INFO  ReadWrite: 121 :- Value found at 1 ,4 is : $566.27
+27-06-2021 01:02:14 INFO  ReadWrite: 129 :- Implementing TRIM function to remove Leading and Trailing spaces
+27-06-2021 01:02:14 INFO  ReadWrite: 132 :- ___________________End reading excel
+27-06-2021 01:02:14 INFO  ReadWrite: 72 :- ---------------------Start reading excel
+27-06-2021 01:02:14 INFO  ReadWrite: 73 :- Workbook location is :- null
+27-06-2021 01:02:14 INFO  ReadWrite: 74 :- Worksheet name is :- Balance
+27-06-2021 01:02:14 INFO  ReadWrite: 75 :- Cell name is :- TotalBalance
+27-06-2021 01:02:14 INFO  ReadWrite: 76 :- Calling first method is : -  totalBalance
+27-06-2021 01:02:14 INFO  ReadWrite: 77 :- Calling first method line is : -  111
+27-06-2021 01:02:14 INFO  ReadWrite: 78 :- Calling second method is : -  validateTheTotalBalanceValue
+27-06-2021 01:02:14 INFO  ReadWrite: 79 :- Calling second method line is : -  75
+27-06-2021 01:02:14 INFO  ReadWrite: 85 :- Count of Rows: 1
+27-06-2021 01:02:14 INFO  ReadWrite: 86 :- Count of Columns: 6
+27-06-2021 01:02:14 INFO  ReadWrite: 92 :- Value1
+27-06-2021 01:02:14 INFO  ReadWrite: 92 :- Value2
+27-06-2021 01:02:14 INFO  ReadWrite: 92 :- Value3
+27-06-2021 01:02:14 INFO  ReadWrite: 92 :- Value4
+27-06-2021 01:02:14 INFO  ReadWrite: 92 :- Value5
+27-06-2021 01:02:14 INFO  ReadWrite: 92 :- TotalBalance
+27-06-2021 01:02:14 INFO  ReadWrite: 96 :- Value present at column number - 5
+27-06-2021 01:02:14 INFO  ReadWrite: 100 :- true
+27-06-2021 01:02:14 INFO  ReadWrite: 107 :- STRING
+27-06-2021 01:02:14 INFO  ReadWrite: 121 :- Value found at 1 ,5 is : $1000000
+27-06-2021 01:02:14 INFO  ReadWrite: 129 :- Implementing TRIM function to remove Leading and Trailing spaces
+27-06-2021 01:02:14 INFO  ReadWrite: 132 :- ___________________End reading excel
+27-06-2021 01:02:14 INFO  Balance: 85 :- The total balances doesnt matches sum of the values
+FO  ReadWrite: 77 :- Calling first method line is : -  51
+27-06-2021 01:02:12 INFO  ReadWrite: 78 :- Calling second method is : -  validateTheCountValue
+27-06-2021 01:02:12 INFO  ReadWrite: 79 :- Calling second method line is : -  41
+27-06-2021 01:02:12 INFO  ReadWrite: 85 :- Count of Rows: 1
+27-06-2021 01:02:12 INFO  ReadWrite: 86 :- Count of Columns: 6
+27-06-2021 01:02:12 INFO  ReadWrite: 92 :- Value1
+27-06-2021 01:02:12 INFO  ReadWrite: 92 :- Value2
+27-06-2021 01:02:12 INFO  ReadWrite: 96 :- Value present at column number - 1
+27-06-2021 01:02:12 INFO  ReadWrite: 100 :- true
+27-06-2021 01:02:12 INFO  ReadWrite: 107 :- STRING
+27-06-2021 01:02:12 INFO  ReadWrite: 121 :- Value found at 1 ,1 is : $599
+27-06-2021 01:02:12 INFO  ReadWrite: 129 :- Implementing TRIM function to remove Leading and Trailing spaces
+27-06-2021 01:02:12 INFO  ReadWrite: 132 :- ___________________End reading excel
+27-06-2021 01:02:12 INFO  ReadWrite: 72 :- ---------------------Start reading excel
+27-06-2021 01:02:12 INFO  ReadWrite: 73 :- Workbook location is :- null
+27-06-2021 01:02:12 INFO  ReadWrite: 74 :- Worksheet name is :- Balance
+27-06-2021 01:02:12 INFO  ReadWrite: 75 :- Cell name is :- Value3
+27-06-2021 01:02:12 INFO  ReadWrite: 76 :- Calling first method is : -  validateTheFormatValue
+27-06-2021 01:02:12 INFO  ReadWrite: 77 :- Calling first method line is : -  52
+27-06-2021 01:02:12 INFO  ReadWrite: 78 :- Calling second method is : -  validateTheCountValue
+27-06-2021 01:02:12 INFO  ReadWrite: 79 :- Calling second method line is : -  41
+27-06-2021 01:02:12 INFO  ReadWrite: 85 :- Count of Rows: 1
+27-06-2021 01:02:12 INFO  ReadWrite: 86 :- Count of Columns: 6
+27-06-2021 01:02:12 INFO  ReadWrite: 92 :- Value1
+27-06-2021 01:02:12 INFO  ReadWrite: 92 :- Value2
+27-06-2021 01:02:12 INFO  ReadWrite: 92 :- Value3
+27-06-2021 01:02:12 INFO  ReadWrite: 96 :- Value present at column number - 2
+27-06-2021 01:02:12 INFO  ReadWrite: 100 :- true
+27-06-2021 01:02:12 INFO  ReadWrite: 107 :- STRING
+27-06-2021 01:02:12 INFO  ReadWrite: 121 :- Value found at 1 ,2 is : $850139.99
+27-06-2021 01:02:12 INFO  ReadWrite: 129 :- Implementing TRIM function to remove Leading and Trailing spaces
+27-06-2021 01:02:12 INFO  ReadWrite: 132 :- ___________________End reading excel
+27-06-2021 01:02:12 INFO  ReadWrite: 72 :- ---------------------Start reading excel
+27-06-2021 01:02:12 INFO  ReadWrite: 73 :- Workbook location is :- null
+27-06-2021 01:02:12 INFO  ReadWrite: 74 :- Worksheet name is :- Balance
+27-06-2021 01:02:12 INFO  ReadWrite: 75 :- Cell name is :- Value4
+27-06-2021 01:02:12 INFO  ReadWrite: 76 :- Calling first method is : -  validateTheFormatValue
+27-06-2021 01:02:12 INFO  ReadWrite: 77 :- Calling first method line is : -  53
+27-06-2021 01:02:12 INFO  ReadWrite: 78 :- Calling second method is : -  validateTheCountValue
+27-06-2021 01:02:12 INFO  ReadWrite: 79 :- Calling second method line is : -  41
+27-06-2021 01:02:12 INFO  ReadWrite: 85 :- Count of Rows: 1
+27-06-2021 01:02:12 INFO  ReadWrite: 86 :- Count of Columns: 6
+27-06-2021 01:02:12 INFO  ReadWrite: 92 :- Value1
+27-06-2021 01:02:12 INFO  ReadWrite: 92 :- Value2
+27-06-2021 01:02:12 INFO  ReadWrite: 92 :- Value3
+27-06-2021 01:02:12 INFO  ReadWrite: 92 :- Value4
+27-06-2021 01:02:12 INFO  ReadWrite: 96 :- Value present at column number - 3
+27-06-2021 01:02:12 INFO  ReadWrite: 100 :- true
+27-06-2021 01:02:12 INFO  ReadWrite: 107 :- STRING
+27-06-2021 01:02:12 INFO  ReadWrite: 121 :- Value found at 1 ,3 is : $23329.5
+27-06-2021 01:02:12 INFO  ReadWrite: 129 :- Implementing TRIM function to remove Leading and Trailing spaces
+27-06-2021 01:02:12 INFO  ReadWrite: 132 :- ___________________End reading excel
+27-06-2021 01:02:12 INFO  ReadWrite: 72 :- ---------------------Start reading excel
+27-06-2021 01:02:12 INFO  ReadWrite: 73 :- Workbook location is :- null
+27-06-2021 01:02:12 INFO  ReadWrite: 74 :- Worksheet name is :- Balance
+27-06-2021 01:02:12 INFO  ReadWrite: 75 :- Cell name is :- Value5
+27-06-2021 01:02:12 INFO  ReadWrite: 76 :- Calling first method is : -  validateTheFormatValue
+27-06-2021 01:02:12 INFO  ReadWrite: 77 :- Calling first method line is : -  54
+27-06-2021 01:02:12 INFO  ReadWrite: 78 :- Calling second method is : -  validateTheCountValue
+27-06-2021 01:02:12 INFO  ReadWrite: 79 :- Calling second method line is : -  41
+27-06-2021 01:02:12 INFO  ReadWrite: 85 :- Count of Rows: 1
+27-06-2021 01:02:12 INFO  ReadWrite: 86 :- Count of Columns: 6
+27-06-2021 01:02:12 INFO  ReadWrite: 92 :- Value1
+27-06-2021 01:02:12 INFO  ReadWrite: 92 :- Value2
+27-06-2021 01:02:12 INFO  ReadWrite: 92 :- Value3
+27-06-2021 01:02:12 INFO  ReadWrite: 92 :- Value4
+27-06-2021 01:02:12 INFO  ReadWrite: 92 :- Value5
+27-06-2021 01:02:12 INFO  ReadWrite: 96 :- Value present at column number - 4
+27-06-2021 01:02:12 INFO  ReadWrite: 100 :- true
+27-06-2021 01:02:12 INFO  ReadWrite: 107 :- STRING
+27-06-2021 01:02:12 INFO  ReadWrite: 121 :- Value found at 1 ,4 is : $566.27
+27-06-2021 01:02:12 INFO  ReadWrite: 129 :- Implementing TRIM function to remove Leading and Trailing spaces
+27-06-2021 01:02:12 INFO  ReadWrite: 132 :- ___________________End reading excel
+27-06-2021 01:02:12 INFO  ReadWrite: 72 :- ---------------------Start reading excel
+27-06-2021 01:02:12 INFO  ReadWrite: 73 :- Workbook location is :- null
+27-06-2021 01:02:12 INFO  ReadWrite: 74 :- Worksheet name is :- Balance
+27-06-2021 01:02:12 INFO  ReadWrite: 75 :- Cell name is :- TotalBalance
+27-06-2021 01:02:12 INFO  ReadWrite: 76 :- Calling first method is : -  validateTheFormatValue
+27-06-2021 01:02:12 INFO  ReadWrite: 77 :- Calling first method line is : -  55
+27-06-2021 01:02:12 INFO  ReadWrite: 78 :- Calling second method is : -  validateTheCountValue
+27-06-2021 01:02:12 INFO  ReadWrite: 79 :- Calling second method line is : -  41
+27-06-2021 01:02:12 INFO  ReadWrite: 85 :- Count of Rows: 1
+27-06-2021 01:02:12 INFO  ReadWrite: 86 :- Count of Columns: 6
+27-06-2021 01:02:12 INFO  ReadWrite: 92 :- Value1
+27-06-2021 01:02:12 INFO  ReadWrite: 92 :- Value2
+27-06-2021 01:02:12 INFO  ReadWrite: 92 :- Value3
+27-06-2021 01:02:12 INFO  ReadWrite: 92 :- Value4
+27-06-2021 01:02:12 INFO  ReadWrite: 92 :- Value5
+27-06-2021 01:02:12 INFO  ReadWrite: 92 :- TotalBalance
+27-06-2021 01:02:12 INFO  ReadWrite: 96 :- Value present at column number - 5
+27-06-2021 01:02:12 INFO  ReadWrite: 100 :- true
+27-06-2021 01:02:12 INFO  ReadWrite: 107 :- STRING
+27-06-2021 01:02:12 INFO  ReadWrite: 121 :- Value found at 1 ,5 is : $1000000
+27-06-2021 01:02:12 INFO  ReadWrite: 129 :- Implementing TRIM function to remove Leading and Trailing spaces
+27-06-2021 01:02:12 INFO  ReadWrite: 132 :- ___________________End reading excel
+27-06-2021 01:02:12 INFO  Balance: 45 :- The count of screen values are  greater than 0
+27-06-2021 01:02:12 INFO  Balance: 46 :- The values are formmatted as currencies

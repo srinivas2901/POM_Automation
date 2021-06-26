@@ -19,7 +19,7 @@ Scenario Outline: Validate the right count of values appear on the screen are gr
 	
 
 	
-@testRun3 @Regression
+@testRun2 @Regression
 Scenario Outline: Validate the total balance matches the sum of the values and is correct based on the values listed on the screen
 
 	Given the user should be able to navigate to the application

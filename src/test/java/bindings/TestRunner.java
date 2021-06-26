@@ -10,7 +10,7 @@ import cucumber.api.junit.Cucumber;
 @CucumberOptions(features="src/test/resources/FeatureFiles",
 				 format = {"pretty","json:target/cucumber.json", "html:target/CucumberHTMLReport"},
 				 monochrome= true,
-				 tags = {"@testRun1"},
+				 tags = {"@Regression"},
 				 dryRun=false
 				)
 

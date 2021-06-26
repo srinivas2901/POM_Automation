@@ -6,9 +6,9 @@ import cucumber.api.junit.Cucumber;
 @RunWith(Cucumber.class)
 @CucumberOptions(
         strict = true,
-        features = {"D:/EclipseWorkspace/massmutual/src/test/resources/FeatureFiles/balance.feature:17"},
-        plugin = {"json:D:/EclipseWorkspace/massmutual/target/cucumber-parallel/1.json"},
+        features = {"D:/EclipseWorkspace/massmutual/src/test/resources/FeatureFiles/balance.feature:34"},
+        plugin = {"json:D:/EclipseWorkspace/massmutual/target/cucumber-parallel/2.json"},
         monochrome = true,
         glue = {"bindings"})
-public class Parallel01IT {
+public class Parallel02IT {
 }
